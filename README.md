@@ -41,7 +41,7 @@ python app.py
 
 ```
 
--Access the application: Open your web browser and go to http://localhost:5000.
+-Access the application: Open your web browser and go to [http://127.0.0.1:5000]
 
 -Upload job descriptions and resumes to view ranked results.
 
