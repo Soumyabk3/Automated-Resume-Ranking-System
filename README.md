@@ -64,7 +64,7 @@ The Automated Resume Ranking System leverages advanced AI technologies to facili
 This project is licensed under the MIT License. See the LICENSE file for more details
 
 
-## Authors
+## Author
 -Name/ email - soumyabhanupriya21@.gmail.com
 - [@Soumyabk3](https://github.com/Soumyabk3)
 
