@@ -1,6 +1,6 @@
 # Automated-Resume-Ranking-System
 
-![ Automated-Resume-Ranking-System](https://github.com/Soumyabk3/Code_Alpha_Predictive_Modeling_with_Linear_Regression/blob/main/predictive%20model%20with%20lr.png)
+![ Automated-Resume-Ranking-System](https://github.com/Soumyabk3/Automated-Resume-Ranking-System/blob/main/Your%20paragraph%20text.png)
 
 ## Problem Statement
 
