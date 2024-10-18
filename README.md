@@ -33,22 +33,24 @@ The system architecture consists of the following components:
 6. **Feedback Mechanism**: Collects user feedback to improve the system.
 
 
-##Evaluation
+## Evaluation
 The system’s performance can be evaluated based on the following metrics:
 
 -Accuracy: Measures how accurately resumes are ranked.
+
 -Scalability: Assesses the system's ability to handle large volumes of data.
+
 -Explainability: Provides insights into the model's ranking decisions using techniques like SHAP.
 
 ## Conclusion
 The Automated Resume Ranking System leverages advanced AI technologies to facilitate a more efficient and effective hiring process, benefiting both employers and job seekers.
 
 
-##License
+## License
 This project is licensed under the MIT License. See the LICENSE file for more details
 
 
 ## Authors
--Name/ email - soumyabhanupriya21@.gmail@example.com
+-Name/ email - soumyabhanupriya21@.gmail.com
 - [@Soumyabk3](https://github.com/Soumyabk3)
 
