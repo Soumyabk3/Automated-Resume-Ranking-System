@@ -32,6 +32,14 @@ The system architecture consists of the following components:
 5. **AIOps Monitoring**: Monitors system performance and optimizes operations.
 6. **Feedback Mechanism**: Collects user feedback to improve the system.
 
+## Usage
+To run the application, follow these steps:
+
+Start the server:
+
+-Access the application: Open your web browser and go to http://localhost:5000.
+
+-Upload job descriptions and resumes to view ranked results.
 
 ## Evaluation
 The system’s performance can be evaluated based on the following metrics:
@@ -41,6 +49,8 @@ The system’s performance can be evaluated based on the following metrics:
 -Scalability: Assesses the system's ability to handle large volumes of data.
 
 -Explainability: Provides insights into the model's ranking decisions using techniques like SHAP.
+
+
 
 ## Conclusion
 The Automated Resume Ranking System leverages advanced AI technologies to facilitate a more efficient and effective hiring process, benefiting both employers and job seekers.
