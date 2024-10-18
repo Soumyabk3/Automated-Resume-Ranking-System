@@ -36,6 +36,10 @@ The system architecture consists of the following components:
 To run the application, follow these steps:
 
 Start the server:
+```bash
+python app.py
+
+```
 
 -Access the application: Open your web browser and go to http://localhost:5000.
 
