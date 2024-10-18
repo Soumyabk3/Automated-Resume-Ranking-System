@@ -1,0 +1,94 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Resume Ranking System</title>
+    <style>
+        body {
+            font-family: Arial, sans-serif;
+            background-color: #f4f4f9;
+            margin: 0;
+            padding: 0;
+        }
+        .container {
+            width: 50%;
+            margin: 50px auto;
+            background-color: #fff;
+            padding: 20px;
+            box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+        }
+        h1 {
+            text-align: center;
+            color: #333;
+        }
+        label {
+            font-weight: bold;
+            color: #555;
+        }
+        textarea, input {
+            width: 100%;
+            padding: 10px;
+            margin: 10px 0;
+            border: 1px solid #ccc;
+            border-radius: 4px;
+        }
+        button {
+            width: 100%;
+            padding: 10px;
+            background-color: #28a745;
+            color: #fff;
+            border: none;
+            border-radius: 4px;
+            cursor: pointer;
+        }
+        button:hover {
+            background-color: #218838;
+        }
+        .score {
+            background-color: #f8d7da;
+            color: #721c24;
+            padding: 15px;
+            border-radius: 5px;
+            margin-top: 20px;
+            text-align: center;
+        }
+        .basis {
+            margin-top: 30px;
+            background-color: #e9ecef;
+            padding: 20px;
+            border-radius: 5px;
+            font-size: 14px;
+        }
+    </style>
+</head>
+<body>
+    <div class="container">
+        <h1>Automated Resume Ranking System</h1>
+        <form action="/upload" method="POST" enctype="multipart/form-data">
+            <label for="resume">Upload Resume (PDF only):</label>
+            <input type="file" name="resume" accept="application/pdf" required>
+
+            <label for="job_description">Job Description:</label>
+            <textarea name="job_description" placeholder="Enter job description here..." required></textarea>
+
+            <button type="submit">Upload Resume</button>
+        </form>
+
+        {% if score %}
+        <div class="score">
+            <h3>Your Resume Score: {{ score }} / 100</h3>
+        </div>
+
+        <div class="basis">
+            <h4>Scoring Basis:</h4>
+            <ul>
+                <li><b>Resume and Job Description Match:</b> How closely your resume matches the job description.</li>
+                <li><b>Skills:</b> Skills in your resume that match the job requirements.</li>
+                <li><b>Experience and Education:</b> Relevant experience and qualifications.</li>
+            </ul>
+        </div>
+        {% endif %}
+    </div>
+</body>
+</html>
